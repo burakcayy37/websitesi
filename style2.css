@@ -1,0 +1,43 @@
+ .dimension{
+    width: 100px;
+    height: 100px;
+    margin-left: -400px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+nav ul li{
+
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+}
+nav ul li a{
+
+    text-decoration: none;
+    margin-left:50px;
+    color: red;
+    padding: 5px;
+    
+
+}
+nav{
+    background-color: white;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li a:hover{
+
+    background-color: white;
+    color: blueviolet;
+}
+.d-block {
+    height: 450px;
+}
+.carousel-inner{
+    display: flex;
+  justify-content: center;
+} 
